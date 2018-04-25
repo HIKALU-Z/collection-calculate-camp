@@ -3,6 +3,7 @@
     "test": "jasmine-node --verbose specs"
   },
   "dependencies": {
+    "jasmine": "^3.1.0",
     "jasmine-node": "1.14.5"
   }
 }
