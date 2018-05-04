@@ -19,9 +19,9 @@ function get_letter_interval_2(number_a, number_b) {
 }
 
 function convert(num) {
-  var result = [];
+  let result = [];
   while (num) {
-    var t = num % 26;
+    let t = num % 26;
     if (!t) {
       t = 26;
       --num;
