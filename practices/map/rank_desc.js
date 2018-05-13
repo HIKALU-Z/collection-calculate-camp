@@ -1,6 +1,13 @@
 'use strict';
 var rank_desc = function(collection){
-  return [2,3,4,5,6];
+  let result = [];
+  result = collection.sort(sortDesc);
+  console.log(result);
+  return result;
 };
+
+function sortDesc(a, b) {
+  return a - b;
+}
 
 module.exports = rank_desc;
